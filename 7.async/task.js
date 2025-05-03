@@ -29,7 +29,7 @@ class AlarmClock {
     const now = new Date();
     let hours = now.getHours();
     let minutes = now.getMinutes();
-    return `${hours}:${minutes}`;
+//    return `${hours}:${minutes}`;
     return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
   }
 
